@@ -1,0 +1,22 @@
+{
+  "name": "com.openbci.sdk",
+  "version": "0.3.5",
+  "displayName": "OpenBCI SDK",
+  "description": "Unity SDK for OpenBCI biosensors and software.",
+  "unity": "2021.3",
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6",
+    "com.unity.inputsystem": "1.7.0"
+  },
+  "keywords": [
+    "biosensors",
+    "bci"
+  ],
+  "author": {
+    "name": "OpenBCI",
+    "email": "contact@openbci.com",
+    "url": "https://openbci.com"
+  },
+  "documentationUrl": "local",
+  "_fingerprint": "ecf0d56aa3d8b092ae975ca3d5a167e7"
+}

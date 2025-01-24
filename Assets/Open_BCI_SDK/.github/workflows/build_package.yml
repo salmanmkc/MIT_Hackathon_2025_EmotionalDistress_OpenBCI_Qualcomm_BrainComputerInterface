@@ -1,0 +1,33 @@
+name: Build Unity Package
+
+on:
+  workflow_dispatch: # Manually trigger the workflow
+
+jobs:
+  build:
+    name: Build Package
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: NPM Pack
+        run: npm pack
+        
+      - name: List files
+        run: ls -la
+        
+      - name: Get package version
+        id: packageVersion
+        run: echo "packageVersion=$(node -p "require('./package.json').version")" >> $GITHUB_OUTPUT
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: com.openbci.sdk-${{ steps.packageVersion.outputs.packageVersion }}.tgz
+          path: com.openbci.sdk-${{ steps.packageVersion.outputs.packageVersion }}.tgz
+          retention-days: 1
