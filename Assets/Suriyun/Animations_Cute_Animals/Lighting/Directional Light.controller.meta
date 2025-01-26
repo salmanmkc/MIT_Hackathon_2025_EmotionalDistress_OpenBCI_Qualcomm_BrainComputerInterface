@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: efbceb58bfe09ac4580e68c85a59bdb6
+timeCreated: 1464330733
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96976
+  packageName: Cute Pet
+  packageVersion: 3.0
+  assetPath: Assets/Suriyun/Animations_Cute_Animals/Lighting/Directional Light.controller
+  uploadId: 687846

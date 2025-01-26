@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 145bae762d8de8f4c8fb1b284128fae7
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 133704
+  packageName: RPG VFX Bundle
+  packageVersion: 5.2.3
+  assetPath: Assets/Hovl Studio/HSFiles/Shaders/DissolveNoise.shader
+  uploadId: 721680

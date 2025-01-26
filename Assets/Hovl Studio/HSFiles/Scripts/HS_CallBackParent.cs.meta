@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 15f64663d9bea784b8060d7fbcdc2b23
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 133704
+  packageName: RPG VFX Bundle
+  packageVersion: 5.2.3
+  assetPath: Assets/Hovl Studio/HSFiles/Scripts/HS_CallBackParent.cs
+  uploadId: 721680

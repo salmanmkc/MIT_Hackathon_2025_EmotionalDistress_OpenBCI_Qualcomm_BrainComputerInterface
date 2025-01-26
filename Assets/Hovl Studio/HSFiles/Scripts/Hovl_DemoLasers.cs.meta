@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 6af44eb64ff318b42a219a7abd31ff20
+timeCreated: 1536001444
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 133704
+  packageName: RPG VFX Bundle
+  packageVersion: 5.2.3
+  assetPath: Assets/Hovl Studio/HSFiles/Scripts/Hovl_DemoLasers.cs
+  uploadId: 721680

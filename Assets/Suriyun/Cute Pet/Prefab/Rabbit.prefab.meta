@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0f94bdc31308dfb418194809d583cab6
+timeCreated: 1501590046
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96976
+  packageName: Cute Pet
+  packageVersion: 3.0
+  assetPath: Assets/Suriyun/Cute Pet/Prefab/Rabbit.prefab
+  uploadId: 687846

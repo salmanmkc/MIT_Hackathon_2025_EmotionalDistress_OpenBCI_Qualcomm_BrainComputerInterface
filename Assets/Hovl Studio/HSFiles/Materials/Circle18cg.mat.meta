@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ca370df8d8c80334e91ddb011e79085a
+timeCreated: 1515853027
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 133704
+  packageName: RPG VFX Bundle
+  packageVersion: 5.2.3
+  assetPath: Assets/Hovl Studio/HSFiles/Materials/Circle18cg.mat
+  uploadId: 721680

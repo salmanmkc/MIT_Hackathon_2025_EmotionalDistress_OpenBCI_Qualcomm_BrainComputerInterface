@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 86b3f0465bcb0c941893722f46ef6eeb
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 133704
+  packageName: RPG VFX Bundle
+  packageVersion: 5.2.3
+  assetPath: Assets/Hovl Studio/HSFiles/Shaders/Electricity.shader
+  uploadId: 721680

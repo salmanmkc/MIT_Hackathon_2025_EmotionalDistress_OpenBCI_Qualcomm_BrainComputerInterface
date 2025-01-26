@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c6a2ded4c4b574a46babd82f68db8f4d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 133704
+  packageName: RPG VFX Bundle
+  packageVersion: 5.2.3
+  assetPath: Assets/Hovl Studio/HSFiles/Shaders/Blend_Normals.shader
+  uploadId: 721680

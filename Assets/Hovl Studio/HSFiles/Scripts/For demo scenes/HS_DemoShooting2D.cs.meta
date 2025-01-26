@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 6cedae4990f69554199024f64462bd8a
+timeCreated: 1536001444
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 133704
+  packageName: RPG VFX Bundle
+  packageVersion: 5.2.3
+  assetPath: Assets/Hovl Studio/HSFiles/Scripts/For demo scenes/HS_DemoShooting2D.cs
+  uploadId: 721680

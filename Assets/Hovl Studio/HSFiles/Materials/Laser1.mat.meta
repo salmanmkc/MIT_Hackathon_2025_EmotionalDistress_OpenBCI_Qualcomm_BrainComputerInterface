@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 37722aff84829324e9a9d5ba87ac13d2
+timeCreated: 1519560674
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 133704
+  packageName: RPG VFX Bundle
+  packageVersion: 5.2.3
+  assetPath: Assets/Hovl Studio/HSFiles/Materials/Laser1.mat
+  uploadId: 721680

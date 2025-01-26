@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 53f2a1ef13cdb964c9e3976355188ee0
+timeCreated: 1501590065
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96976
+  packageName: Cute Pet
+  packageVersion: 3.0
+  assetPath: Assets/Suriyun/Cute Pet/Prefab/GoatA.prefab
+  uploadId: 687846

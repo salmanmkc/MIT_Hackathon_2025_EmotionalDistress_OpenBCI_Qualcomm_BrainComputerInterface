@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 44274e700897d1a40af0423ae63b7ffd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 133704
+  packageName: RPG VFX Bundle
+  packageVersion: 5.2.3
+  assetPath: Assets/Hovl Studio/HSFiles/Scripts/For demo scenes/HS_PoolableCycler.cs
+  uploadId: 721680

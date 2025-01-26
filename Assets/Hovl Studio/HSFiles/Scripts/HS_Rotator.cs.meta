@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 268fb4d91644e42409780f6594097609
+timeCreated: 1490959302
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 133704
+  packageName: RPG VFX Bundle
+  packageVersion: 5.2.3
+  assetPath: Assets/Hovl Studio/HSFiles/Scripts/HS_Rotator.cs
+  uploadId: 721680

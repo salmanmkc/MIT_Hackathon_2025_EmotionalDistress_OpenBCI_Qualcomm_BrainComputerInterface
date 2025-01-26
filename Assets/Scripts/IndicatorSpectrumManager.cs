@@ -2,47 +2,94 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System;
+using OpenAI;
 
 public class IndicatorSpectrumManager : MonoBehaviour
 {
+    [Header("UI Components")]
+    public Slider indicatorSlider;
+    public TMP_Text indicatorText;
+    public string indicatorLabel;
+    public Image sliderHandleImage; // Handle image to change dynamically
 
-public Slider indicatorSlider;
-public TMP_Text indicatorText;
-public String indicatorLabel;
-//public Image currentLable;
-public GameObject lowLabel;
-public float lowValue;
-public GameObject midLabel;
-public float midValue;
-public GameObject HighLabel;
-public float highValue;
+    [Header("Thresholds")]
+    public float lowValue = 0.3f; // Threshold for low state
+    public float midValue = 0.7f; // Threshold for mid state
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [Header("Handle Images")]
+    public Image lowLabelImage;  // Image for low state
+    public Image midLabelImage;  // Image for mid state
+    public Image highLabelImage; // Image for high state
+
+    [Header("States")]
+    public string currentIndicatorLabel;
+    [Range(0f, 1f)]
+    public float currentIndicatorSliderValue; // Slider value exposed in the Inspector
+    public bool lowState;
+    public bool midState;
+    public bool highState;
+
+ void Start()
     {
-        indicatorText.text = indicatorLabel;
+        // Set the label text
+        if (indicatorText != null)
+        {
+            //indicatorText.text = indicatorLabel;
+        }
+
+        // Initialize the handle image
+        UpdateSliderState();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (indicatorSlider.value<=lowValue)
-            {
-                lowLabel.SetActive(true);
-                midLabel.SetActive(false);
-                HighLabel.SetActive(false);
-            }
-        else if (indicatorSlider.value>lowValue&&indicatorSlider.value<midValue)
-            {
-                lowLabel.SetActive(false);
-                midLabel.SetActive(true);
-                HighLabel.SetActive(false);
-            }
-        else if (indicatorSlider.value>=midValue)
-            {
-                lowLabel.SetActive(false);
-                midLabel.SetActive(false);
-                HighLabel.SetActive(true);
-            }
+        UpdateSliderState();
+        indicatorSlider.value = currentIndicatorSliderValue; 
+        indicatorText.text = currentIndicatorLabel;
+    }
+
+    private void UpdateSliderState()
+    {
+        float sliderValue = indicatorSlider.value;
+
+        // Check the slider value and set states accordingly
+        if (sliderValue <= lowValue)
+        {
+            SetState(true, false, false);
+            ChangeHandleImage(lowLabelImage.sprite);
+            currentIndicatorLabel = "low";
+        }
+        else if (sliderValue > lowValue && sliderValue < midValue)
+        {
+            SetState(false, true, false);
+            ChangeHandleImage(midLabelImage.sprite);
+            currentIndicatorLabel = "mid";
+        }
+        else if (sliderValue >= midValue)
+        {
+            SetState(false, false, true);
+            ChangeHandleImage(highLabelImage.sprite);
+            currentIndicatorLabel = "high";
+        }
+    }
+
+    private void SetState(bool isLow, bool isMid, bool isHigh)
+    {
+        // Update the state booleans
+        lowState = isLow;
+        midState = isMid;
+        highState = isHigh;
+
+        // Debug logs for testing
+        Debug.Log($"{indicatorLabel} - Low: {lowState}, Mid: {midState}, High: {highState}");
+    }
+
+    private void ChangeHandleImage(Sprite newImage)
+    {
+        // Change the slider handle's image
+        if (sliderHandleImage != null && newImage != null)
+        {
+            sliderHandleImage.sprite = newImage;
+        }
     }
 }

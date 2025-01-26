@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ddd740a226795f745aa95910d90d15ab
+timeCreated: 1516211342
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 133704
+  packageName: RPG VFX Bundle
+  packageVersion: 5.2.3
+  assetPath: Assets/Hovl Studio/HSFiles/Materials/Trail5cg.mat
+  uploadId: 721680
