@@ -11,6 +11,7 @@ public class CharacterManager : MonoBehaviour
 
     public AudioSource audioSource; // Reference to the AudioSource component
     public AudioClip[] calmingSounds; // Array of calming audio clips to play randomly
+    public Transform lookAtTarget; // The object this GameObject should always look at
 
     private Vector3 targetPosition; // The next position to move to
 
@@ -31,6 +32,11 @@ public class CharacterManager : MonoBehaviour
         if (Vector3.Distance(transform.position, targetPosition) < 0.1f)
         {
             StartCoroutine(ChangePositionAfterPause());
+        }
+                // Make the object always look at the specified target
+        if (lookAtTarget != null)
+        {
+            transform.LookAt(lookAtTarget);
         }
     }
 
